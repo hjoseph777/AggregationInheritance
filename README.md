@@ -1,6 +1,9 @@
 # AggregationInheritance
 This assignment is based on calculating a PhoneBill for a Customer
 
+<p align="right">
+  <img src="PhoneBill.png" alt="Phone Bill">
+</p>
 
 # Synopsis of Phone Bill UML Class Diagram
 
