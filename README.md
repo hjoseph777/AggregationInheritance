@@ -1,14 +1,15 @@
 # AggregationInheritance
-This assignment is based on calculating a PhoneBill for a Customer
+This repository contains an assignment focused on calculating a Customer's phone bill. It includes the implementation of several classes and their relationships, along with their attributes and methods.
 
-<p align="right">
+<p align="center">
   <img src="PhoneBill.png" alt="Phone Bill">
 </p>
 
 
+
 ### Classes and Relationships
 
-| Class              | Attributes                                                                 | Methods                                     | Relationships                                  |
+|Class               | Attributes                                                                 | Methods                                     | Relationships                                  |
 |--------------------|----------------------------------------------------------------------------|---------------------------------------------|-----------------------------------------------|
 | **Customer**       | - `name: String` <br> - `address: String` <br> - `currentBalance: Double`  | - `getName(): String` <br> - `getAddress(): String` <br> - `getCurrentBalance(): Double` | |
 | **PhoneBill**      | - `customer: Customer` <br> - `callDuration: Integer` <br> - `callCost: Double` | - `calculateCallCost(): Double` <br> - `printBill(): void` | - **Association:** `PhoneBill` is associated with `Customer` |
@@ -19,6 +20,8 @@ This assignment is based on calculating a PhoneBill for a Customer
 
 
 
+Author Harry Joseph  Date: December 9, 2024
+[Github](https://github.com/hjoseph777)
 
 
 
@@ -31,42 +34,4 @@ This assignment is based on calculating a PhoneBill for a Customer
 
 
 
-# Synopsis of Phone Bill UML Class Diagram
-
-## Classes and Attributes
-
-### Customer class 1
-**Attributes:**
-- `name: String`
-- `address: String` 
-- `currentBalance: Double`
-
-**Methods:**
-- `getName(): String`
-- `getAddress(): String`
-- `getCurrentBalance(): Double`
-
-### PhoneBill   class 2
-**Attributes:**
-- `customer: Customer`
-- `callDuration: Integer`
-- `callCost: Double`
-
-**Methods:**
-- `calculateCallCost(): Double`
-- `printBill(): void`
-
-### MobilePhoneBill class 3
-**Attributes:**
-- `smsCount: Integer`
-
-**Methods:**
-- `calculateTotalDue(): Double`
-- `printBill(): void`
-
-## Relationships
-- **Inheritance:** `MobilePhoneBill` inherits from `PhoneBill`
-- **Association:** `PhoneBill` is associated with `Customer`
-
----
 
